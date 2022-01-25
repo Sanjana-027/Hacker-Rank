@@ -1,0 +1,16 @@
+public class Question{
+public static void main(String[] args)
+{
+String s = "Banana Panama Vikrama Akram Dwakra";
+print(s.indexOf("na"));
+print(s.indexOf("na", s.indexOf("na")));
+print(s.lastIndexOf("na"));
+print(s.lastIndexOf("akr"));
+print(s.lastIndexOf("akr", s.lastIndexOf("akr")));
+System.out.println(s.substring(s.indexOf("ik")-1, s.lastIndexOf("wa")-s.indexOf("Pana")-1));
+}
+private static void print(int value)
+{
+System.out.print(value + "~");
+}
+}
