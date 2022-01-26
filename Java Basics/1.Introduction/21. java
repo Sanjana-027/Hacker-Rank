@@ -1,0 +1,13 @@
+package com.cool;
+public class Cooler {
+public void doCool(){
+System.out.println("cooling...");
+}
+}
+
+public class Furnace
+{
+public void cool(Cooler c) { 
+c.doCool();
+}
+}
